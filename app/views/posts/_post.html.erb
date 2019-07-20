@@ -1,0 +1,10 @@
+<div class="post-container">
+  <div class="post-author">
+
+  <%= post.user.name unless current_user.nil? %>
+
+  </div>
+  <div class="post-body">
+    <%= post.content %>
+  </div>
+</div>
